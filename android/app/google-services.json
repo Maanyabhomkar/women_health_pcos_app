@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "123760680871",
+    "project_id": "women-health-companion",
+    "storage_bucket": "women-health-companion.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123760680871:android:acaa0624f8708f0002a082",
+        "android_client_info": {
+          "package_name": "com.example.women_health_companion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUs43vTdwT3CMEDRVNXIk5Stat3hby2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123760680871:android:d48abffaae6eea3202a082",
+        "android_client_info": {
+          "package_name": "com.example.women_health_pcos_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUs43vTdwT3CMEDRVNXIk5Stat3hby2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
