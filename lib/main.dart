@@ -1,14 +1,23 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
-import 'app.dart';
+import 'screens/auth/login_screen.dart';
+import 'screens/extra/splash_screen.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+void main() {
+  runApp(const MyApp());
+}
 
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
-  runApp(const women_health_pcos_appApp());
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Women Health App',
+      theme: ThemeData(
+        primarySwatch: Colors.pink,
+      ),
+      home: SplashScreen(),
+    );
+  }
 }

@@ -1,6 +1,6 @@
 {
-    "name": "women_health_pcos_app",
-    "short_name": "women_health_pcos_app",
+    "name": "women_health_app_v2",
+    "short_name": "women_health_app_v2",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
